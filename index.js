@@ -65,10 +65,9 @@ function playHangman () {
                 guessesLeft = 10;
                 getWord();
                 playHangman();
-            } else if (guessesLeft <= -1) {
-                console.log("No more guesses, you lose.".red);
+            } else if (guessesLeft <= 0) {
+                console.log("No more guesses, you lose.".red + " The word was " + randomWord.bold.inverse);
                 losses += 1;
-                newWord.blanksAndLetters();
                 console.log("\n" + "\nNEW WORD".bold.inverse);
                 lettersGuessed = [];
                 correctLetters = [];

@@ -29,6 +29,6 @@ The game has three files that are built on a system of dependencies:
 * [colors.js](https://www.npmjs.com/package/colors)
 
 ### To Do
-- [] Allow words with spaces in word bank by preventing white space from counting as letter object.
-- [] Refactor guess conditions to deduct guesses remaining *only* on incorrect guesses.
-- [] Add `gauntlet` option that challenges user to correctly guess all words from word bank without a loss.
+- [ ] Allow words with spaces in word bank by preventing white space from counting as letter object.
+- [ ] Refactor guess conditions to deduct guesses remaining *only* on incorrect guesses.
+- [ ] Add `gauntlet` option that challenges user to correctly guess all words from word bank without a loss.

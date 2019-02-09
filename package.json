@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mtking78/Constructor-Hangman#readme",
   "dependencies": {
     "colors": "^1.2.1",
-    "inquirer": "^5.2.0"
+    "inquirer": "^5.2.0",
+    "lodash": "^4.17.11"
   }
 }
